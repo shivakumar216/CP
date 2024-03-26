@@ -75,14 +75,14 @@ public class LinkedList {
         int k = scanner.nextInt();
 
         // Display the original linked list
-        System.out.println("Original linked list:\n");
+        System.out.println("Original linked list:");
         show();
 
         // Reverse the linked list in blocks of size K
         head = reverseKBlock(head, k);
 
         // Display the reversed linked list
-        System.out.println("Linked list after reversing in blocks of size " + k + ":");
+        System.out.println("\n Linked list after reversing in blocks of size " + k + ":");
         show();
 
         scanner.close();
